@@ -60,3 +60,19 @@ $ git push -u origin --all
 　または　
 $ git push -u origin master
 ```
+
+```
+$ git checkout -b xxxxx
+
+$ git add -A
+$ git commit -m "Add a Static Pages controller"
+$ git push -u origin xxxxx
+
+$ git add -A
+$ git commit -m "Finish static pages"
+
+$ git checkout master
+$ git merge xxxxx
+$ git push
+
+```
